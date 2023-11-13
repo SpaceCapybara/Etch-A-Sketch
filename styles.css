@@ -1,0 +1,45 @@
+.title {
+    text-align: center;
+}
+
+.centerBttn {
+    text-align: center;
+}
+
+ body {
+    background-color: gray;
+}
+
+.gridContainer {
+    text-align: center;
+    max-width: 800px;
+    max-height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid; /* Corrected typo */
+    grid-template-columns: repeat(16, 1fr);
+    background-color: white;
+}
+
+.gridDiv {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    box-sizing: border-box;
+}
+
+.gridDiv:nth-child(240) ~ .gridDiv{
+    border-bottom: 1px solid black;
+}
+
+.gridDiv:nth-child(16n + 1) {
+    border-left: 1px solid black;
+}
+
+.eraseCont {
+    margin: 10px;
+    text-align: center;
+}
+
