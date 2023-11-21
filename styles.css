@@ -7,6 +7,9 @@ h1 {
     color: white;
 }
 
+p {
+    color: white
+}
 .buttonContainer, .cont {
     margin: 12px;
     gap: 6px;
@@ -19,5 +22,6 @@ h1 {
     width: 800px;
     border: 2px solid white;
     margin: auto;
+    display: grid;
     
 }
