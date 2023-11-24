@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
     <title>Etch-A-Sketch</title>
     <script src="main.js" defer></script>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <h1>Etch-A-Sketch</h1>
     <div class="cont">
-        <button id="sizeBttn" class="btn btn-outline-success">Press to select size</button>
-        <p class="response"></p>
+      <button id="sizeBttn" class="btn btn-outline-success">
+        Press to select size
+      </button>
+    </div>
+    <div>
+      <p class="response"></p>
     </div>
     <div id="sketchContainer"></div>
     <div class="buttonContainer">
-        <button class="btn btn-outline-warning">Black</button>
-        <button class="btn btn-outline-primary">Random</button>
-        <button class="btn btn-outline-danger">Erase</button>
+      <button id="blackBttn" class="btn btn-outline-warning">Black</button>
+      <button id="random" class="btn btn-outline-primary">Random</button>
+      <button id="eraseButton" class="btn btn-outline-danger">Erase</button>
     </div>
-</body>
+  </body>
 </html>
